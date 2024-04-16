@@ -8,6 +8,11 @@
 
 }
 
+html {
+  background-image: url('/assets/background.png');
+  background-size: cover;
+}
+
 :root {
   font-family: 'Source Serif 4', sans-serif;
   font-size: 62.5%;
@@ -30,6 +35,7 @@ main  {
   display: flex;
   flex-direction: column;
   gap: 3.2rem;
+
 }
 
 .recipe {
